@@ -275,8 +275,8 @@ private:
 
     void uploadButtonClicked()
     {
-        bool success = customConn.connectToSocket("127.0.0.1", 8080, 10000);
         DBG("Connecting to socket");
+        bool success = customConn.connectToSocket("127.0.0.1", 8080, 10000);
         DBG(std::to_string(success));
         juce::File file = thumbnailComp.getFile();
         juce::String filePath = file.getFullPathName();

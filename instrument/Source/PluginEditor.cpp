@@ -23,7 +23,7 @@ AmadeusAudioProcessorEditor::AmadeusAudioProcessorEditor (AmadeusAudioProcessor&
   stopButton.setEnabled (false);
 
   addAndMakeVisible (&uploadButton);
-  uploadButton.setButtonText ("Upload");
+  uploadButton.setButtonText ("Practice");
   uploadButton.onClick = [this] { uploadButtonClicked(); };
   uploadButton.setColour (juce::TextButton::buttonColourId, juce::Colours::blue);
   uploadButton.setEnabled (false);
