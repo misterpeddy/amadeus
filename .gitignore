@@ -1,8 +1,11 @@
 # Service Accounts
 **/*sa.json
 
-# Created by https://www.toptal.com/developers/gitignore/api/vim,python,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,python,linux
+# Juce Build files
+instrument/Builds
+
+# Mac
+.DS_Store
 
 ### Linux ###
 *~
